@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: InteriorMapMaterial
+  m_Shader: {fileID: 4800000, guid: eb422f42d1eaad64ca9e58196c9329b9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeightTex:
+        m_Texture: {fileID: 2800000, guid: d1798ab438bc37b4a82f33193e5cdda0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 12a34110a2693ce41b9f7524abe295c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CeilTexSizeAndOffset: 0.25
+    - _DistanceBetweenFloors: 0.25
+    - _DistanceBetweenObject: 0.25
+    - _DistanceBetweenWalls: 0.25
+    - _FloorTexSizeAndOffset: 0.25
+    - _Height: 0.01
+    - _Tiles: 4
+    - _WallTexSizeAndOffset: 0.25
+    m_Colors:
+    - _CeilTexSizeAndOffset: {r: 0.5, g: 0.5, b: 0, a: 0.5}
+    - _CenterOffset: {r: 0, g: 0.5, b: 0, a: 0}
+    - _ColorFloor: {r: 0.6037736, g: 0.3503026, b: 0.3503026, a: 1}
+    - _ColorRoof: {r: 0.8988211, g: 1, b: 0, a: 1}
+    - _ColorWall: {r: 0.3317462, g: 0.5797725, b: 0.990566, a: 1}
+    - _ColorWall2: {r: 0.55190253, g: 0.990566, b: 0.54668033, a: 1}
+    - _FloorTexSizeAndOffset: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ObjectOffset: {r: 0, g: 0, b: 0.125, a: 0}
+    - _ObjectTexSizeAndOffset: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _WallTexSizeAndOffset: {r: 0.5, g: 0.5, b: 0.5, a: 0}
